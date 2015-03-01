@@ -1,0 +1,50 @@
+class neuron(const int layerX, const int layerY, const int num_layer){
+	inizalize_neuron(){};
+}
+
+network::inizalize_neuron(){
+	
+}
+
+class network(const vector<int> &topologyX, const vector<int> &topologyY, const int &num_layer)
+{
+	public:
+	
+	inizalize_network(const vector<int> &topologyX, const vector<int> &topologyY, const int &num_layer){};
+	
+	for(i=0;i<num_layer;i++;){
+	connection_function(){};
+	}
+	
+
+}
+
+network::inizalize_network(const vector<int> &topologyX, const vector<int> &topologyY, const int &num_layer){
+	network_layer network[];
+	for(i = 0;i < num_layer; i++){
+		for(j = 0; j < topologyX[i].size; j++){
+			for(k = 0; k < topologyY.size; k++){
+				network[i].layertopology[j][k];
+			}
+		}
+	}
+}
+
+network::connection_function(){
+
+}
+
+struct network_layer{
+	neuron layertopology[][];	
+}
+
+int main(){
+	vector<int> topologyX;
+	vector<int> topologyY;
+	int num_layer=6;
+	
+	network mynet(topologyX, topologyY, num_layer)
+}
+
+
+
