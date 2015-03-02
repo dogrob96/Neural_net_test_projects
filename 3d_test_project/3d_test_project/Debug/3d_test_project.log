@@ -1,0 +1,37 @@
+﻿Build started 3/2/2015 12:19:30 PM.
+     1>Project "C:\Users\Robert\Documents\GitHub\Neural_net_test_projects\3d_test_project\3d_test_project\3d_test_project.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\rmath.h(1): error C2084: function 'double get_derivative(double (__cdecl *)(double),double)' already has a body
+                 c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\rmath.h(1) : see previous definition of 'get_derivative'
+     1>c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\neuron.h(10): error C2011: 'Connection' : 'struct' type redefinition
+                 c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\neuron.h(10) : see declaration of 'Connection'
+     1>c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\neuron.h(19): error C2011: 'Neuron' : 'class' type redefinition
+                 c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\neuron.h(19) : see declaration of 'Neuron'
+     1>c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\neuron.h(31): error C2027: use of undefined type 'Neuron'
+                 c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\neuron.h(19) : see declaration of 'Neuron'
+     1>c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\neuron.h(35): error C2027: use of undefined type 'Neuron'
+                 c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\neuron.h(19) : see declaration of 'Neuron'
+     1>c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\neuron.h(36): error C3861: 'get_derivative': identifier not found
+     1>c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\network.h(22): error C3867: 'std::vector<int,std::allocator<_Ty>>::size': function call missing argument list; use '&std::vector<int,std::allocator<_Ty>>::size' to create a pointer to member
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\network.h(22): error C2446: '<' : no conversion from 'unsigned int (__thiscall std::vector<int,std::allocator<_Ty>>::* )(void) throw() const' to 'int'
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 There is no context in which this conversion is possible
+     1>c:\users\robert\documents\github\neural_net_test_projects\3d_test_project\3d_test_project\network.h(22): error C2297: '<' : illegal, right operand has type 'unsigned int (__thiscall std::vector<int,std::allocator<_Ty>>::* )(void) throw() const'
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>Done Building Project "C:\Users\Robert\Documents\GitHub\Neural_net_test_projects\3d_test_project\3d_test_project\3d_test_project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.32
